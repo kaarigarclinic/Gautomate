@@ -1,0 +1,14 @@
+{
+  "name": "gautomate",
+  "version": "1.0.0",
+  "description": "Enhance productivity with keyboard commands for Google services",
+  "main": "background.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.188",
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0"
+  }
+}

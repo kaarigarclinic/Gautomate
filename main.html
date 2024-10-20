@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gautomate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <h1>Gautomate</h1>
+      <div id="auth-container">
+        <button id="sign-in-button" class="btn">Sign In with Google</button>
+        <button id="sign-out-button" class="btn" style="display: none;">Sign Out</button>
+      </div>
+      <div id="greeting-container"></div>
+      <div id="command-container">
+        <input type="text" id="command-input" placeholder="Enter a command..." autofocus>
+        <div id="suggestions-container"></div>
+      </div>
+      <div id="response-container"></div>
+      <div id="loading-indicator" class="spinner" style="display: none;"></div>
+      <div id="error-message" style="display: none;"></div>
+    </div>
+  </div>
+  <script src="main.js" type="module"></script>
+</body>
+</html>
